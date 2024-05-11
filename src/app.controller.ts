@@ -11,7 +11,7 @@ export class AppController {
   }
 
   @Post()
-  postHello(): string {
-    return this.appService.getHello();
+  postHello() {
+    return this.appService.postHello();
   }
 }
